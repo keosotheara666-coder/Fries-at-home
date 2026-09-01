@@ -1,4 +1,22 @@
 import collection from "../collection.config.js";
+import EntryCard from "../components/EntryCard.js";
+
+const entries = [
+  {
+    title: "Teanh Proat (ទាញព្រ័ត្រ)",
+    description:
+      "Two equal teams grip opposite ends of a thick rope, each side standing behind a line drawn on the ground. At a signal both teams pull together as hard as they can. Whoever drags the other side over the middle line wins the round.",
+    contributor: "Ara",
+    place: "Khmer New Year (around mid-April) and village festivals across Cambodia",
+  },
+  {
+    title: "Chol Chhoung (ចោលឈូង)",
+    description:
+      "The 'chhoung' is a soft ball made by tightly twisting old cloth or threads into a round shape about the size of a small fruit. Two groups of players — traditionally boys and girls — stand in two long rows facing each other. One team throws the chhoung and the other tries to catch it and throw it straight back.",
+    contributor: "Ara",
+    place: "The first evening of Khmer New Year and community celebrations",
+  },
+];
 
 const styles = {
   wrap: {
@@ -72,7 +90,13 @@ export default function Home() {
         <p style={styles.cardValue}>{collection.source}</p>
       </div>
 
-      <p style={styles.count}>entries in the archive: 0 (for now)</p>
+      {entries.map((entry) => (
+        <EntryCard key={entry.title} entry={entry} />
+      ))}
+
+      <p style={styles.count}>
+        entries in the archive: {entries.length} (for now)
+      </p>
 
       <footer style={styles.footer}>
         Built in ICT 340 — Vibe Coding, American University of Phnom Penh, Fall
