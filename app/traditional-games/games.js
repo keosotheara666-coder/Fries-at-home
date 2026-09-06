@@ -23,6 +23,19 @@ const games = [
       "A rope needs many people on each side, so the game naturally brings an entire community into one cheering crowd. In many places it has also long carried a hope for rain and a good harvest, linking playful strength to the seasons of farming life.",
     whyToday:
       "It remains one of the most popular games at Khmer New Year and community events. It needs nothing more than a strong rope and enough people, so it is easy to run almost anywhere — and it is now honoured as living cultural heritage.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "ក្រុមពីរដែលមានចំនួនស្មើគ្នាចាប់ចុងទាំងពីរនៃខ្សែពួរដ៏ធំមួយ ដោយក្រុមនីមួយៗឈរពីក្រោយបន្ទាត់ដែលគូសលើដី។ ពេលឮសញ្ញា ក្រុមទាំងពីរទាញព្រមគ្នាអស់ពីកម្លាំង។ ក្រុមណាដែលទាញបានភាគីម្ខាងទៀតឆ្លងបន្ទាត់កណ្តាល ក្រុមនោះឈ្នះក្នុងវគ្គនោះ។",
+    originKhmer:
+      "ការទាញព្រ័ត្រគឺជាកីឡាក្រុមដ៏ចំណាស់បំផុតមួយនៅក្នុងពិភពលោក ហើយទម្រង់មួយរបស់វាបានក្លាយជាផ្នែកនៃជីវិតរបស់ខ្មែរអស់ជាច្រើនជំនាន់។ នៅឆ្នាំ២០១៥ អ៊ុយនេស្កូបានទទួលស្គាល់ការទាញព្រ័ត្ររបស់កម្ពុជាថាជាផ្នែកមួយនៃកេរដំណែលវប្បធម៌រួម «ពិធី និងល្បែងទាញ» រួមជាមួយហ្វីលីពីន កូរ៉េខាងត្បូង និងវៀតណាម។",
+    whenPlayedKhmer:
+      "ការទាញព្រ័ត្រជាចំណុចលេចធ្លោនៃបុណ្យចូលឆ្នាំខ្មែរ (ប្រហែលពាក់កណ្តាលខែមេសា) ហើយក៏គេលេងនៅពិធីបុណ្យភូមិ ពេលដែលសហគមន៍ទាំងមូលជួបជុំគ្នាដើម្បីអបអរ។",
+    whyPlayedKhmer:
+      "គេលេងហ្គេមនេះសម្រាប់ភាពសប្បាយរីករាយ និងមោទនភាពមិត្តភាព និងដើម្បីភាពសប្បាយនៃក្រុមដែលផ្សំពីអ្នកជិតខាង ញាតិសន្តាន និងមិត្តភក្តិ។ វាក៏ផ្តល់ឱកាសដល់សហគមន៍ដើម្បីរីករាយជាមួយព្រឹត្តិការណ៍ដ៏អស្ចារ្យ និងរីករាយជាមួយគ្នា។",
+    importanceKhmer:
+      "ខ្សែពួរត្រូវការមនុស្សច្រើននៅម្ខាងៗ ដូច្នេះល្បែងនេះប្រមូលផ្តុំសហគមន៍ទាំងមូលទៅជាហ្វូងមនុស្សស្រែកអបអរតែមួយទៅតាមធម្មជាតិរបស់វា។ នៅកន្លែងជាច្រើន វាក៏បានបន្តទ្រទ្រង់ក្តីសង្ឃឹមសម្រាប់ភ្លៀង និងការប្រមូលផលល្អ ដោយភ្ជាប់កម្លាំងលេងជាមួយរដូវកាលនៃជីវិតធ្វើស្រែចម្ការ។",
+    whyTodayKhmer:
+      "វានៅតែជាល្បែងមួយដែលពេញនិយមបំផុតនៅបុណ្យចូលឆ្នាំខ្មែរ និងព្រឹត្តិការណ៍សហគមន៍។ វាត្រូវការតែខ្សែពួររឹងមាំ និងមនុស្សគ្រប់គ្រាន់ ដូច្នេះងាយស្រួលរៀបចំស្ទើរតែគ្រប់ទីកន្លែង — ហើយឥឡូវនេះវាត្រូវបានគេលើកតម្កើងថាជាកេរដំណែលវប្បធម៌រស់នៅ។",
   },
   {
     name: "Chol Chhoung",
@@ -41,10 +54,24 @@ const games = [
       "Chol Chhoung carries far more than a game — folk songs, quick aim and the joy of playing in a group. Through the years it gave Cambodia's young people a respectful meeting place, and that singing-and-courtship tradition is part of why it is so treasured.",
     whyToday:
       "It is still played at Khmer New Year in towns and villages. Because it needs nothing but a twisted rag of cloth and a circle of friends, anybody can organise it — a playful way to keep a piece of living tradition alive.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "«ឈូង» គឺជាបាល់ទន់ដែលធ្វើពីក្រណាត់ចាស់ ឬអំបោះរមួលឱ្យក្លាយជារាងមូលប្រហែលទំហំផ្លែឈើតូចមួយ។ ក្រុមអ្នកលេងពីរក្រុម — ជាប្រពៃណីក្មេងប្រុស និងក្មេងស្រី — ឈរជាពីរជួរវែងបែរមុខទល់គ្នា។ ក្រុមមួយបោះឈូង ហើយក្រុមម្ខាងទៀតព្យាយាមចាប់ ហើយបោះត្រឡប់មកវិញភ្លាមៗ។ បើអ្នកលេងណាម្នាក់ត្រូវបាល់ប៉ះ ក្រុមទាំងមូលនោះត្រូវរាំ ទើបអាចយកបាល់ត្រឡប់មកវិញ ខណៈដែលក្រុមម្ខាងទៀតទះដៃ និងច្រៀង។",
+    originKhmer:
+      "ចោលឈូងត្រូវបានគេរាប់ថាជាល្បែងចំណាស់បំផុតមួយនៃបុណ្យចូលឆ្នាំខ្មែរ។ កាលពីមុន វាជាល្បែងរបស់យុវជនជំនាន់ក្រោយជាពិសេស — ជាមធ្យោបាយសមរម្យសម្រាប់ក្មេងប្រុសស្រីភូមិឱ្យបានជួបគ្នា សើច និងច្រៀងជាមួយគ្នាក្នុងពិធីបុណ្យ។",
+    whenPlayedKhmer:
+      "គេលេងជាពិសេសនៅពេលល្ងាចដំបូងនៃបុណ្យចូលឆ្នាំខ្មែរ នៅពេលដែលយប់ដំបូងមកដល់ ហើយក៏លេងម្តងទៀតអំឡុងពេលពិធីបុណ្យសហគមន៍។",
+    whyPlayedKhmer:
+      "អ្នកលេងចូលចិត្តភាពរហ័ស ការច្រៀង និងការរាំបន្តិចបន្តួចរបស់ក្រុមដែលត្រូវបាល់។ វារស់រវើក និងឮខ្លាំង ហើយវាអនុញ្ញាតឱ្យយុវជនភូមិចូលរួមក្នុងពិធីបុណ្យជាមួយគ្នា។",
+    importanceKhmer:
+      "ចោលឈូងផ្ទុកនូវអ្វីច្រើនជាងល្បែងមួយ — ចម្រៀងប្រជាប្រិយ ការបោះចំគោលដៅរហ័ស និងសេចក្តីរីករាយនៃការលេងជាក្រុម។ អស់រយៈពេលជាច្រើនឆ្នាំ វាបានផ្តល់កន្លែងជួបជុំដ៏សមរម្យដល់យុវជនកម្ពុជា ហើយប្រពៃណីនៃការច្រៀង និងស្វែងរកគូរនេះ ជាផ្នែកមួយដែលធ្វើឱ្យវាត្រូវបានគេឱ្យតម្លៃខ្លាំង។",
+    whyTodayKhmer:
+      "វានៅតែត្រូវបានគេលេងនៅបុណ្យចូលឆ្នាំខ្មែរទាំងក្នុងទីក្រុង និងភូមិ។ ដោយសារវាត្រូវការតែក្រណាត់រមូរ និងរង្វង់មិត្តភក្តិ អ្នកណាក៏អាចរៀបចំបានដែរ — ជាមធ្យោបាយលេងសើចដើម្បីរក្សាប្រពៃណីរស់នៅមួយផ្នែក។",
   },
 {
     name: "Bos Angkunh",
     khmerName: "បោះអង្គុញ",
+    image: "/images/bos_angkunh.jpg",
     translit: "Baoh Angkunh (Bos Angkunh)",
     howToPlay:
       "The angkunh is a small, hard, smooth seed that grows freely in the season. In the simple form, players sit and throw an angkunh, trying to hit the target angkunh seeds of the opposing side. In the extended form, several extra stages are added before a winner is decided. The game closes with a tradition called Jours, in which the winning team gently taps the knees of the losing team with an angkunh seed.",
@@ -58,10 +85,24 @@ const games = [
       "Because it uses the seeds of the season, the game softly connects the players to the harvest and the land. It is social and small — easiest among family and neighbours — and it teaches careful aim and good humour whether the players win or lose.",
     whyToday:
       "In villages, children still sit down to 'bos angkunh' during the new year, learning it from their parents and grandparents. It costs almost nothing, and that is exactly why this old game has survived and keeps being passed on.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "អង្គុញគឺជាគ្រាប់តូច រឹង រលោង ដែលដុះដោយសេរីតាមរដូវកាល។ ក្នុងទម្រង់សាមញ្ញ អ្នកលេងអង្គុយ ហើយបោះអង្គុញ ដោយព្យាយាមឱ្យប៉ះគ្រាប់អង្គុញគោលដៅរបស់ភាគីម្ខាង។ ក្នុងទម្រង់បន្ថែម គេបន្ថែមដំណាក់កាលជាច្រើនទៀត មុននឹងកំណត់អ្នកឈ្នះ។ ល្បែងបញ្ចប់ដោយប្រពៃណីមួយហៅថា «Jours» ដែលក្រុមឈ្នះទះថ្នមៗលើជង្គង់របស់ក្រុមចាញ់ដោយគ្រាប់អង្គុញ។",
+    originKhmer:
+      "ជាល្បែងប្រជាប្រិយនៃជីវិតភូមិខ្មែរ។ ដោយសារគ្រាប់អង្គុញបានពីផ្លែឈើតាមរដូវកាលដោយសេរី ល្បែងនេះអាចលេងបានគ្រប់ទីកន្លែងនៅទីជនបទ ដោយស្ទើរតែមិនចាំបាច់ទិញ ឬរៀបចំអ្វីសោះ។",
+    whenPlayedKhmer:
+      "គេលេងបោះអង្គុញបន្ទាប់ពីរដូវច្រូតកាត់ និងអំឡុងពេលបុណ្យចូលឆ្នាំខ្មែរ ជាញឹកញាប់នៅក្នុងផ្ទះ និងភូមិ ពេលដែលពិធីបុណ្យធំៗនៅពេលថ្ងៃបានស្ងប់ស្ងាត់ ហើយក្រុមតូចមួយអង្គុយលេងមួយវគ្គ។",
+    whyPlayedKhmer:
+      "វាជាល្បែងនៃការបោះចំគោលដៅ ភាពស្ងប់ស្ងាត់ និងដៃរឹងមាំ ជាជាងភាពរហ័ស ឬកម្លាំង។ បន្ទាប់ពីការងារធ្ងន់នៃរដូវច្រូតកាត់ ការអង្គុយ «បោះអង្គុញ» គឺជាវិធីស្ងប់ស្ងាត់ និងគាប់ចិត្ត ដើម្បីរីករាយជាមួយការសម្រាកដែលរដូវកាលបានផ្តល់ឱ្យ។",
+    importanceKhmer:
+      "ដោយសារវាប្រើប្រាស់គ្រាប់ពូជតាមរដូវកាល ល្បែងនេះភ្ជាប់អ្នកលេងជាមួយរដូវច្រូតកាត់ និងដីធ្លីយ៉ាងទន់ភ្លន់។ វាជាល្បែងសង្គម និងតូច — ងាយស្រួលបំផុតក្នុងចំណោមគ្រួសារ និងអ្នកជិតខាង — ហើយវាបង្រៀនពីការបោះចំគោលដៅដោយប្រុងប្រយ័ត្ន និងអាកប្បកិរិយាល្អ មិនថាអ្នកលេងឈ្នះ ឬចាញ់ឡើយ។",
+    whyTodayKhmer:
+      "នៅតាមភូមិ ក្មេងៗនៅតែអង្គុយលេង «បោះអង្គុញ» ក្នុងអំឡុងពេលចូលឆ្នាំ ដោយរៀនពីឪពុកម្តាយ និងជីដូនជីតា។ វាស្ទើរតែមិនចំណាយលុយ ហើយនោះជាមូលហេតុពិតប្រាកដដែលល្បែងចំណាស់នេះបានរស់រានមានជីវិត ហើយបន្តត្រូវបានចម្លងបន្តពីមួយជំនាន់ទៅមួយជំនាន់។",
   },
   {
     name: "Leak Kanseng",
     khmerName: "លាក់កន្សែង",
+    image: "/images/leak_kanseng.jpeg",
     translit: "Leak Kanseng (Hide the Scarf)",
     howToPlay:
       "A group of people sit together in a circle facing the middle. One walker, holding a 'kanseng' — a Cambodian scarf or towel twisted into a round shape — walks quietly around the outside of the circle. Without being noticed, the walker hides the scarf behind a seated person. If that person realises what is happening, they grab the scarf and chase the walker around the circle before the walker can reach the empty seat. If they do not notice, the walker keeps going and the surprise may return.",
@@ -75,6 +116,19 @@ const games = [
       "Leak Kanseng teaches a steady eye, quick moves and good fun. It needs almost no equipment, so it has always let the children of a village play together, and an elder can pass it on simply by folding a scarf.",
     whyToday:
       "It is still played at Khmer New Year and at schools and festivals. Because all you really need is one scarf and a circle of friends, this quiet, gentle game keeps children and grown-ups sharing the same old piece of childhood culture.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "ក្រុមមនុស្សមួយក្រុមអង្គុយជារង្វង់បែរមុខចូលកណ្តាល។ អ្នកដើរម្នាក់ កាន់ «កន្សែង» — កន្សែង ឬក្រណាត់របស់កម្ពុជារមួលឱ្យរាងមូល — ដើរយ៉ាងស្ងៀមស្ងាត់ជុំវិញខាងក្រៅរង្វង់។ ដោយមិនឱ្យនរណាដឹង អ្នកដើរលាក់កន្សែងពីក្រោយអ្នកអង្គុយម្នាក់។ បើអ្នកនោះដឹងរឿង ពួកគេនឹងចាប់កន្សែង ហើយដេញអ្នកដើរជុំវិញរង្វង់ មុនពេលអ្នកដើរទៅដល់កៅអីទទេ។ បើពួកគេមិនបានដឹង អ្នកដើរបន្តដើរ ហើយការភ្ញាក់ផ្អើលអាចនឹងត្រឡប់មកវិញ។",
+    originKhmer:
+      "ពាក្យ «លាក់កន្សែង» មានន័យថាលាក់បាំងកន្សែង។ វាជាល្បែងទន់ភ្លន់ដែលក្មេងកម្ពុជាស្គាល់អស់ជាច្រើនជំនាន់ ដែលកសាងពីរបស់ប្រចាំថ្ងៃបំផុតក្នុងភូមិ — កន្សែងដែលស្ទើរតែគ្រប់គ្នាបានរុំលើស្មា។",
+    whenPlayedKhmer:
+      "វាជាល្បែងពេលយប់ ដែលផ្តួចផ្តើមសម្រាប់ពេលល្ងាចភ្លឺនៃពិធីបុណ្យ និងបុណ្យចូលឆ្នាំខ្មែរ ពេលដែលព្រះចន្ទបំភ្លឺទីធ្លា ហើយក្មេងៗអាចប្រមូលផ្តុំគ្នានៅខាងក្រៅក្នុងរាត្រីត្រជាក់។",
+    whyPlayedKhmer:
+      "ក្មេងៗលេងវាសម្រាប់ភាពរំភើប និងការសើច — តើកន្សែងនឹងត្រូវលាក់នៅពីក្រោយអ្នកដែរឬទេ? វាជាល្បែងស្ងប់ស្ងាត់ និងគិតពិចារណាជាងល្បែងដ៏រស់រវើក ដោយរង្វង់ទាំងមូលនៅនឹងមួយកន្លែងដើម្បីមើល និងស្តាប់។",
+    importanceKhmer:
+      "លាក់កន្សែងបង្រៀនពីភ្នែកមុត ចលនារហ័ស និងភាពសប្បាយល្អ។ វាស្ទើរតែមិនត្រូវការឧបករណ៍ ដូច្នេះវាតែងតែអនុញ្ញាតឱ្យក្មេងៗភូមិលេងជាមួយគ្នា ហើយអ្នកចាស់អាចបន្តចម្លងវាបានដោយការបត់កន្សែងមួយយ៉ាងសាមញ្ញ។",
+    whyTodayKhmer:
+      "វានៅតែត្រូវបានគេលេងនៅបុណ្យចូលឆ្នាំខ្មែរ និងនៅសាលារៀន និងពិធីបុណ្យនានា។ ដោយសារអ្វីដែលអ្នកពិតជាត្រូវការគឺកន្សែងមួយ និងរង្វង់មិត្តភក្តិ ល្បែងស្ងប់ស្ងាត់ និងទន់ភ្លន់នេះរក្សាឱ្យក្មេង និងមនុស្សធំចែករំលែកវប្បធម៌កុមារភាពចំណាស់មួយដូចគ្នា។",
   },
 ];
 

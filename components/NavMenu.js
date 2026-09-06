@@ -9,11 +9,11 @@ const LINKS = [
 
 const styles = {
   bar: {
-    backgroundColor: "#14181F",
-    borderBottom: "1px solid #2E3644",
+    backgroundColor: "#17120A",
+    borderBottom: "1px solid rgba(212,175,55,0.4)",
   },
   nav: {
-    maxWidth: 760,
+    maxWidth: 840,
     margin: "0 auto",
     padding: "16px 24px",
     display: "flex",
@@ -24,15 +24,15 @@ const styles = {
     fontFamily: "'Courier New', monospace",
     fontSize: 12,
     letterSpacing: 1,
-    color: "#2EE6A8",
+    color: "#D4AF37",
   },
   link: {
-    color: "#97A1B3",
+    color: "#C9B98F",
     textDecoration: "none",
     fontSize: 14,
   },
   linkActive: {
-    color: "#E8EDF2",
+    color: "#F2E9D8",
     textDecoration: "none",
     fontSize: 14,
     fontWeight: 600,

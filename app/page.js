@@ -1,101 +1,140 @@
 import collection from "../collection.config.js";
-import EntryCard from "../components/EntryCard.js";
+import GameBrowser from "../components/GameBrowser.js";
+import AngkorBackdrop from "../components/AngkorBackdrop.js";
+import RomdoulFlower from "../components/RomdoulFlower.js";
+import games from "./traditional-games/games.js";
 
-const entries = [
-  {
-    title: "Teanh Proat (ទាញព្រ័ត្រ)",
-    description:
-      "Two equal teams grip opposite ends of a thick rope, each side standing behind a line drawn on the ground. At a signal both teams pull together as hard as they can. Whoever drags the other side over the middle line wins the round.",
-    contributor: "Ara",
-    place: "Khmer New Year (around mid-April) and village festivals across Cambodia",
-  },
-  {
-    title: "Chol Chhoung (ចោលឈូង)",
-    description:
-      "The 'chhoung' is a soft ball made by tightly twisting old cloth or threads into a round shape about the size of a small fruit. Two groups of players — traditionally boys and girls — stand in two long rows facing each other. One team throws the chhoung and the other tries to catch it and throw it straight back.",
-    contributor: "Ara",
-    place: "The first evening of Khmer New Year and community celebrations",
-  },
-];
+const GOLD = "#D4AF37";
+const GOLD_LIGHT = "#F5D061";
+const BRASS = "#B8860B";
+const CREAM = "#F2E9D8";
+const MUTED = "#C9B98F";
 
 const styles = {
   wrap: {
-    maxWidth: 720,
+    maxWidth: 820,
     margin: "0 auto",
-    padding: "80px 24px",
+    padding: "70px 24px 70px",
+  },
+  hero: {
+    position: "relative",
+    textAlign: "center",
+    border: `1px solid ${GOLD}`,
+    borderRadius: 18,
+    padding: "52px 36px 44px",
+    background: "linear-gradient(180deg, #241C0E 0%, #1A1409 100%)",
+    boxShadow: `0 0 0 6px rgba(212,175,55,0.14), 0 22px 60px rgba(0,0,0,0.55)`,
+    overflow: "hidden",
   },
   kicker: {
     fontFamily: "'Courier New', monospace",
-    color: "#2EE6A8",
-    fontSize: 14,
-    letterSpacing: 1,
+    color: GOLD_LIGHT,
+    fontSize: 13,
+    letterSpacing: 2,
+    margin: 0,
+  },
+  titleRow: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 14,
+    margin: "20px 0 26px",
   },
   title: {
-    fontSize: 48,
+    fontSize: 44,
     fontWeight: 700,
-    margin: "16px 0 12px",
-    lineHeight: 1.1,
-  },
-  description: {
-    fontSize: 18,
-    color: "#97A1B3",
-    lineHeight: 1.6,
     margin: 0,
+    lineHeight: 1.1,
+    color: CREAM,
+    textShadow: `0 2px 18px rgba(212,175,55,0.35)`,
   },
-  card: {
-    marginTop: 48,
-    padding: 24,
-    backgroundColor: "#1C222C",
-    border: "1px solid #2E3644",
-    borderRadius: 10,
+  descKhmer: {
+    fontSize: 22,
+    lineHeight: 1.7,
+    color: GOLD_LIGHT,
+    margin: "0 auto",
+    maxWidth: 620,
+    fontWeight: 600,
   },
-  cardLabel: {
+  divider: {
+    width: 120,
+    height: 2,
+    margin: "22px auto",
+    background: `linear-gradient(90deg, transparent, ${GOLD}, transparent)`,
+    borderRadius: 2,
+  },
+  descEn: {
+    fontSize: 17,
+    lineHeight: 1.6,
+    color: MUTED,
+    margin: 0,
+    maxWidth: 620,
+    marginLeft: "auto",
+    marginRight: "auto",
+  },
+  section: {
+    margin: "66px 0 0",
+    textAlign: "center",
+  },
+  sectionKicker: {
     fontFamily: "'Courier New', monospace",
     fontSize: 12,
-    color: "#97A1B3",
-    margin: 0,
+    letterSpacing: 2,
+    color: BRASS,
+    margin: "0 0 6px",
+    textTransform: "uppercase",
   },
-  cardValue: {
-    fontSize: 16,
-    margin: "6px 0 0",
+  sectionTitle: {
+    fontSize: 26,
+    fontWeight: 700,
+    margin: 0,
+    color: CREAM,
   },
   count: {
     fontFamily: "'Courier New', monospace",
     fontSize: 14,
-    color: "#2EE6A8",
-    marginTop: 48,
+    color: GOLD,
+    marginTop: 40,
+    textAlign: "center",
   },
   footer: {
-    marginTop: 64,
+    marginTop: 60,
     paddingTop: 24,
-    borderTop: "1px solid #2E3644",
+    borderTop: `1px solid rgba(212,175,55,0.35)`,
     fontSize: 13,
-    color: "#5A6373",
+    color: MUTED,
+    textAlign: "center",
   },
 };
 
 export default function Home() {
   return (
     <main style={styles.wrap}>
-      <p style={styles.kicker}>KHMER LIVING ARCHIVE</p>
-      <h1 style={styles.title}>{collection.name}</h1>
-      <p style={styles.description}>{collection.description}</p>
+      <AngkorBackdrop />
 
-      <div style={styles.card}>
-        <p style={styles.cardLabel}>CURATED BY</p>
-        <p style={styles.cardValue}>{collection.curator}</p>
-      </div>
-      <div style={styles.card}>
-        <p style={styles.cardLabel}>SOURCE</p>
-        <p style={styles.cardValue}>{collection.source}</p>
-      </div>
+      <header style={styles.hero}>
+        <p style={styles.kicker}>
+          KHMER LIVING ARCHIVE • បណ្ណសាររស់នៅខ្មែរ
+        </p>
+        <div style={styles.titleRow}>
+          <RomdoulFlower size={38} />
+          <h1 style={styles.title}>Traditional Khmer Games</h1>
+          <RomdoulFlower size={38} color={GOLD} />
+        </div>
+        {/* Khmer translation first — it is the prioritised language */}
+        <p style={styles.descKhmer}>{collection.descriptionKhmer}</p>
+        <div style={styles.divider} />
+        <p style={styles.descEn}>{collection.description}</p>
+      </header>
 
-      {entries.map((entry) => (
-        <EntryCard key={entry.title} entry={entry} />
-      ))}
+      <section style={styles.section}>
+        <p style={styles.sectionKicker}>Browse the collection • ស្វែងរក</p>
+        <h2 style={styles.sectionTitle}>Traditional Khmer Games</h2>
+        <GameBrowser games={games} />
+      </section>
 
       <p style={styles.count}>
-        entries in the archive: {entries.length} (for now)
+        traditional games in the archive: {games.length} (for now)
       </p>
 
       <footer style={styles.footer}>
