@@ -130,6 +130,130 @@ const games = [
     whyTodayKhmer:
       "វានៅតែត្រូវបានគេលេងនៅបុណ្យចូលឆ្នាំខ្មែរ និងនៅសាលារៀន និងពិធីបុណ្យនានា។ ដោយសារអ្វីដែលអ្នកពិតជាត្រូវការគឺកន្សែងមួយ និងរង្វង់មិត្តភក្តិ ល្បែងស្ងប់ស្ងាត់ និងទន់ភ្លន់នេះរក្សាឱ្យក្មេង និងមនុស្សធំចែករំលែកវប្បធម៌កុមារភាពចំណាស់មួយដូចគ្នា។",
   },
+{
+    name: "Chab Kon Kleng",
+    khmerName: "ចាប់កូនខ្លែង",
+    image: "/images/chab_kon_kleng.jpg",
+    translit: "Chab Kon Kleng (Catch the Kite)",
+    howToPlay:
+      "One strong player is chosen as the mother hen, several others are the chicks, and one more player is the kite that waits to catch the chicks. Everyone wraps a scarf tightly around their waist so their clothes stay on during the chase. They light a small bonfire, and the mother hen tells her chicks to hold onto each other's waists, one behind the other in a line, and they walk, circling around the fire while the kite tries to snatch a chick.",
+    origin:
+      "Chab Kon Kleng means 'catch the kite'. It is a game of boys and girls and teenagers, played in Cambodian villages for generations and built around the everyday, familiar picture of a mother hen guarding her chicks from a hunting kite.",
+    whenPlayed:
+      "It is a night-time game, played in the bright moonlight — especially during Khmer New Year or whenever the young people have free time in the evening.",
+    whyPlayed:
+      "Children play it for the suspense and the laughter — the kite dodges and darts while the mother hen stretches out her arms to shield her long line of chicks, and the whole group chases and shrieks around the fire.",
+    importance:
+      "The game teaches quick reflexes, co-operation and trust: the chicks must hold on and follow the mother hen, while the hen must protect the whole line. It gathers the village's young people together around one shared fire.",
+    whyToday:
+      "It is still played at Khmer New Year and on bright festival nights, because it needs nothing more than a scarf, a patch of ground and a circle of friends.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "ល្បែង «ចាប់កូនខ្លែង» ជាល្បែងរបស់កុមារាកុមារី ជំទង់ៗ តែងតែលេងក្នុងវេលាយប់ខែភ្លឺ នៅរដូវចូលឆ្នាំ ឬនៅពេលទំនេរ។ ល្បែងនេះពេលលេងគេចាត់ម្នាក់ដែលមានមាឌមាំធំ ឱ្យធ្វើជាមេហ្វូងហៅថាមេមាន់, ចាត់ច្រើននាក់ឱ្យធ្វើជាកូនមាន់ ហើយគេចាត់ម្នាក់ទៀតឱ្យធ្វើជាខ្លែង ចាំចាប់កូនមាន់។ ម្នាក់ៗគេយកក្រមាក្រវាត់ចង្កេះឱ្យតឹងណែន ការពារកុំឱ្យរបូតសម្លៀក។ គេនាំគ្នាបង្កាត់ភ្លើងឱ្យបានជាភ្នក់តូច ដោយកម្ទេចអុស ហើយម្នាក់ដែលធ្វើមេមាន់បញ្ជាឱ្យកូនរបស់ខ្លួនតោងចង្កេះ តៗគ្នារហូតដល់អស់ ដោយឈរជាជួរ រួចដើរក្រឡឹងព័ទ្ធជុំវិញភ្នក់ភ្លើង។",
+    originKhmer:
+      "ពាក្យ «ចាប់កូនខ្លែង» មានន័យថាចាប់កូនខ្លែង។ វាជាល្បែងរបស់កុមារាកុមារី និងជំទង់ៗ ដែលគេលេងនៅតាមភូមិកម្ពុជាអស់ជាច្រើនជំនាន់ ដោយកសាងពីរូបភាពសាមញ្ញដែលធ្លាប់ស្គាល់ប្រចាំថ្ងៃ គឺមេមាន់ការពារកូនមាន់របស់ខ្លួនពីខ្លែងដែលរកស៊ី។",
+    whenPlayedKhmer:
+      "វាជាល្បែងពេលយប់ ដែលគេលេងក្នុងរាត្រីខែភ្លឺ — ជាពិសេសនៅរដូវបុណ្យចូលឆ្នាំខ្មែរ ឬនៅពេលដែលក្មេងៗ និងជំទង់មានពេលទំនេរនៅពេលល្ងាច។",
+    whyPlayedKhmer:
+      "ក្មេងៗលេងវាសម្រាប់ភាពរំភើប និងការសើច — ខ្លែងគេច និងស្ទុះទៅមក ខណៈដែលមេមាន់លាតដៃការពារជួរកូនមាន់ដ៏វែងរបស់ខ្លួន ហើយក្រុមទាំងមូលដេញ និងស្រែកជុំវិញភ្លើង។",
+    importanceKhmer:
+      "ល្បែងនេះបង្រៀនពីភាពរហ័សរហួន ការសហការ និងការជឿទុកចិត្ត៖ កូនមាន់ត្រូវតោង និងដើរតាមមេមាន់ រីឯមេមាន់ត្រូវការពារជួរទាំងមូល។ វាប្រមូលផ្តុំក្មេងៗ និងជំទង់ភូមិឱ្យនៅជុំវិញភ្លើងតែមួយ។",
+    whyTodayKhmer:
+      "វានៅតែត្រូវបានគេលេងនៅបុណ្យចូលឆ្នាំខ្មែរ និងនៅរាត្រីបុណ្យដែលខែភ្លឺ ព្រោះវាត្រូវការតែក្រមាមួយ ដីមួយកន្លែង និងរង្វង់មិត្តភក្តិប៉ុណ្ណោះ។",
+  },
+{
+    name: "Leaf Stealing",
+    khmerName: "លួចស្លឹក",
+    image: "/images/leaf_stealing.jpg",
+    translit: "Luoch Sloek (Leaf Stealing)",
+    howToPlay:
+      "One player is chosen as the guard and stands over a small pile of leaves placed on the ground. The other players take turns trying to sneak in and snatch a leaf without being tagged. If the guard tags a thief, that player becomes the new guard. The game goes on until all the leaves have been stolen.",
+    origin:
+      "Leaf Stealing is a simple village game played by children, built from the most everyday of countryside things — a pile of fallen leaves and a patch of open ground.",
+    whenPlayed:
+      "It is a daytime game, often played during Khmer New Year or after school, whenever the children gather together in the yard.",
+    whyPlayed:
+      "Children play it for the thrill of creeping past the guard and the laughter of being caught just a step away from the leaves.",
+    importance:
+      "The game teaches quick feet, careful timing and a watchful eye, and it needs nothing more than leaves and a circle of friends.",
+    whyToday:
+      "It is still played in villages and schoolyards because it needs no equipment at all — just a handful of leaves and a place to run.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "គេចាត់អ្នកលេងម្នាក់ឱ្យធ្វើជាអ្នកយាម ឈរការពារគំនរស្លឹកតូចមួយដែលគេដាក់លើដី។ អ្នកលេងឯទៀតៗ ប្តូរវេនគ្នាព្យាយាមលួចចូល ហើយឆក់ស្លឹកមួយដោយមិនឱ្យគេចាប់បាន។ បើអ្នកយាមចាប់អ្នកលួចបាន អ្នកលួចនោះក្លាយជាអ្នកយាមថ្មី។ ល្បែងបន្តរហូតដល់ស្លឹកទាំងអស់ត្រូវបានលួចអស់។",
+    originKhmer:
+      "ល្បែងលួចស្លឹកជាល្បែងភូមិដ៏សាមញ្ញដែលក្មេងៗលេង ដោយកសាងពីរបស់ប្រចាំថ្ងៃរបស់ជនបទ — គំនរស្លឹកឈើជ្រុះ និងដីទទេមួយកន្លែង។",
+    whenPlayedKhmer:
+      "វាជាល្បែងពេលថ្ងៃ ដែលគេតែងតែលេងនៅបុណ្យចូលឆ្នាំខ្មែរ ឬក្រោយពេលចេញពីសាលា នៅពេលដែលក្មេងៗជួបជុំគ្នានៅទីធ្លា។",
+    whyPlayedKhmer:
+      "ក្មេងៗលេងវាសម្រាប់ភាពរំភើបនៃការលូនចូលហួសអ្នកយាម និងការសើចនៅពេលត្រូវគេចាប់បានត្រឹមមួយជំហានពីស្លឹក។",
+    importanceKhmer:
+      "ល្បែងនេះបង្រៀនពីជើងរហ័ស ការគណនាពេលវេលាដោយប្រុងប្រយ័ត្ន និងភ្នែកមុត ហើយវាត្រូវការតែស្លឹក និងរង្វង់មិត្តភក្តិប៉ុណ្ណោះ។",
+    whyTodayKhmer:
+      "វានៅតែត្រូវបានគេលេងនៅតាមភូមិ និងទីធ្លាសាលា ព្រោះវាមិនត្រូវការឧបករណ៍អ្វីទាល់តែសោះ — គ្រាន់តែស្លឹកមួយក្តាប់ និងកន្លែងសម្រាប់រត់។",
+  },
+  {
+    name: "Pongroat Kon Kromom",
+    khmerName: "បង្រោះកូនក្រមុំ",
+    image: "/images/pongroat_kon_kromom.jpg",
+    translit: "Pongroat Kon Kromom (Toss the Young Lady)",
+    howToPlay:
+      "Young men and women stand in two rows facing each other. One side tosses a small object — often a scarf or a soft ball — toward the other side, and the person who catches it is paired with the one who threw it. The game lets young people meet and laugh together in a playful, respectful way.",
+    origin:
+      "Pongroat Kon Kromom, meaning 'toss the young lady', is a courtship-style game of Khmer New Year, when young people were given a gentle, traditional chance to meet.",
+    whenPlayed:
+      "It is played at Khmer New Year and village festivals, when the whole community gathers to celebrate.",
+    whyPlayed:
+      "People play it for the fun of the toss and the shy, happy laughter when the pairs are made.",
+    importance:
+      "The game gives young people a gentle way to meet and flirt within tradition, and it brings the whole village together in one cheerful crowd.",
+    whyToday:
+      "It is still played at New Year festivals as a light-hearted way for young people to mingle and share a laugh.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "យុវជន និងយុវនារីឈរជាពីរជួរបែរមុខដាក់គ្នា។ ភាគីម្ខាងបោះរបស់តូចមួយ — ច្រើនតែជាកន្សែង ឬបាល់ទន់ — ទៅភាគីម្ខាងទៀត ហើយអ្នកដែលចាប់បានត្រូវគូជាមួយអ្នកដែលបោះ។ ល្បែងនេះផ្តល់ឱកាសឱ្យយុវជនយុវនារីជួបគ្នា និងសើចសប្បាយជាមួយគ្នាក្នុងរបៀបលេងសើច និងគួរសម។",
+    originKhmer:
+      "ពាក្យ «បង្រោះកូនក្រមុំ» មានន័យថាបោះកូនក្រមុំ។ វាជាល្បែងបែបស្នេហារាប់អានរបស់បុណ្យចូលឆ្នាំខ្មែរ ពេលដែលយុវជនយុវនារីមានឱកាសជួបគ្នាតាមប្រពៃណីដ៏ទន់ភ្លន់។",
+    whenPlayedKhmer:
+      "គេលេងនៅបុណ្យចូលឆ្នាំខ្មែរ និងពិធីបុណ្យភូមិ ពេលដែលសហគមន៍ទាំងមូលជួបជុំគ្នាដើម្បីអបអរ។",
+    whyPlayedKhmer:
+      "គេលេងវាសម្រាប់ភាពសប្បាយនៃការបោះ និងការសើចដ៏ខ្មាស់អៀន និងរីករាយនៅពេលគេផ្គូផ្គងគូ។",
+    importanceKhmer:
+      "ល្បែងនេះផ្តល់ឱកាសឱ្យយុវជនយុវនារីជួបគ្នាក្នុងរបៀបទន់ភ្លន់តាមប្រពៃណី ហើយនាំភូមិទាំងមូលមកជាហ្វូងមនុស្សរីករាយតែមួយ។",
+    whyTodayKhmer:
+      "វានៅតែត្រូវបានគេលេងនៅពិធីបុណ្យចូលឆ្នាំ ជាវិធីស្រាលៗសម្រាប់យុវជនយុវនារីឱ្យស្គាល់គ្នា និងចែករំលែកការសើច។",
+  },
+{
+    name: "Veay Ka'am",
+    khmerName: "វាយកអាំ",
+    image: "/images/veay_ka'am.jpg",
+    translit: "Veay Ka'am (Hit the Coconut)",
+    howToPlay:
+      "Players take turns trying to strike a target — often a coconut or a pot placed on the ground — from a set distance. Whoever hits it cleanly wins the round. It is a game of aim, strength and patience.",
+    origin:
+      "Veay Ka'am, meaning 'hit the coconut', is a game of skill played in Cambodian villages, testing a player's aim with a simple throw.",
+    whenPlayed:
+      "It is played at festivals and Khmer New Year, and in the yard whenever there is free time.",
+    whyPlayed:
+      "People play it for the challenge of a clean hit and the cheers that go up when someone lands it.",
+    importance:
+      "The game teaches aim, patience and good sportsmanship, and it needs almost nothing but a target and something to throw.",
+    whyToday:
+      "It is still played because it needs only a target and a throw, so it is easy to set up almost anywhere.",
+    // Khmer translation — shown first, English original below.
+    howToPlayKhmer:
+      "អ្នកលេងប្តូរវេនគ្នាព្យាយាមវាយចំគោលដៅ — ច្រើនតែជាដូង ឬឆ្នាំងដែលគេដាក់លើដី — ពីចម្ងាយដែលគេកំណត់។ អ្នកណាវាយចំយ៉ាងស្អាត អ្នកនោះឈ្នះក្នុងវគ្គនោះ។ វាជាល្បែងនៃការចំគោលដៅ កម្លាំង និងការអត់ធ្មត់។",
+    originKhmer:
+      "ពាក្យ «វាយកអាំ» មានន័យថាវាយដូង។ វាជាល្បែងជំនាញដែលគេលេងនៅតាមភូមិកម្ពុជា ដោយសាកល្បងការចំគោលដៅរបស់អ្នកលេងជាមួយការបោះដ៏សាមញ្ញ។",
+    whenPlayedKhmer:
+      "គេលេងនៅពិធីបុណ្យ និងបុណ្យចូលឆ្នាំខ្មែរ ហើយនៅទីធ្លាពេលមានពេលទំនេរ។",
+    whyPlayedKhmer:
+      "គេលេងវាសម្រាប់ការប្រកួតប្រជែងនៃការវាយចំយ៉ាងស្អាត និងសំឡេងអបអរនៅពេលអ្នកណាម្នាក់វាយចំ។",
+    importanceKhmer:
+      "ល្បែងនេះបង្រៀនពីការចំគោលដៅ ការអត់ធ្មត់ និងស្មារតីកីឡាល្អ ហើយវាស្ទើរតែមិនត្រូវការអ្វីក្រៅពីគោលដៅ និងរបស់សម្រាប់បោះ។",
+    whyTodayKhmer:
+      "វានៅតែត្រូវបានគេលេង ព្រោះវាត្រូវការតែគោលដៅ និងការបោះ ដូច្នេះងាយស្រួលរៀបចំស្ទើរតែគ្រប់ទីកន្លែង។",
+  },
 ];
 
 export default games;

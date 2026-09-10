@@ -7,7 +7,7 @@ import RomdoulFlower from "../../components/RomdoulFlower.js";
 export const metadata = {
   title: `${collection.name} — Traditional Khmer Games`,
   description:
-    "An introduction to four traditional Khmer games — Teanh Proat, Chol Chhoung, Bos Angkunh and Leak Kanseng — and why they matter to Cambodian culture.",
+    "An introduction to eight traditional Khmer games — Teanh Proat, Chol Chhoung, Bos Angkunh, Leak Kanseng, Chab Kon Kleng, Leaf Stealing, Pongroat Kon Kromom and Veay Ka'am — and why they matter to Cambodian culture.",
 };
 
 const GOLD = "#D4AF37";
