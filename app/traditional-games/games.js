@@ -162,8 +162,8 @@ const games = [
       "វានៅតែត្រូវបានគេលេងនៅបុណ្យចូលឆ្នាំខ្មែរ និងនៅរាត្រីបុណ្យដែលខែភ្លឺ ព្រោះវាត្រូវការតែក្រមាមួយ ដីមួយកន្លែង និងរង្វង់មិត្តភក្តិប៉ុណ្ណោះ។",
   },
 {
-    name: "Leaf Stealing",
-    khmerName: "លួចស្លឹក",
+    name: "Dondorm Sloek Chher",
+    khmerName: "ដណ្ដើមស្លឹកឈើ",
     image: "/images/leaf_stealing.jpg",
     translit: "Luoch Sloek (Leaf Stealing)",
     howToPlay:
@@ -194,13 +194,13 @@ const games = [
   },
   {
     name: "Pongroat Kon Kromom",
-    khmerName: "បង្រោះកូនក្រមុំ",
+    khmerName: "ពង្រាត់កូនក្រមុំ",
     image: "/images/pongroat_kon_kromom.jpg",
-    translit: "Pongroat Kon Kromom (Toss the Young Lady)",
+    translit: "Pongroat Kon Kromom (Snatch the bride)",
     howToPlay:
       "Young men and women stand in two rows facing each other. One side tosses a small object — often a scarf or a soft ball — toward the other side, and the person who catches it is paired with the one who threw it. The game lets young people meet and laugh together in a playful, respectful way.",
     origin:
-      "Pongroat Kon Kromom, meaning 'toss the young lady', is a courtship-style game of Khmer New Year, when young people were given a gentle, traditional chance to meet.",
+      "Pongroat Kon Kromom, meaning 'snatch the bride', is a courtship-style game of Khmer New Year, when young people were given a gentle, traditional chance to meet.",
     whenPlayed:
       "It is played at Khmer New Year and village festivals, when the whole community gathers to celebrate.",
     whyPlayed:
@@ -213,11 +213,11 @@ const games = [
     howToPlayKhmer:
       "យុវជន និងយុវនារីឈរជាពីរជួរបែរមុខដាក់គ្នា។ ភាគីម្ខាងបោះរបស់តូចមួយ — ច្រើនតែជាកន្សែង ឬបាល់ទន់ — ទៅភាគីម្ខាងទៀត ហើយអ្នកដែលចាប់បានត្រូវគូជាមួយអ្នកដែលបោះ។ ល្បែងនេះផ្តល់ឱកាសឱ្យយុវជនយុវនារីជួបគ្នា និងសើចសប្បាយជាមួយគ្នាក្នុងរបៀបលេងសើច និងគួរសម។",
     originKhmer:
-      "ពាក្យ «បង្រោះកូនក្រមុំ» មានន័យថាបោះកូនក្រមុំ។ វាជាល្បែងបែបស្នេហារាប់អានរបស់បុណ្យចូលឆ្នាំខ្មែរ ពេលដែលយុវជនយុវនារីមានឱកាសជួបគ្នាតាមប្រពៃណីដ៏ទន់ភ្លន់។",
+      "ពាក្យ «ពង្រាត់កូនក្រមុំ» មានន័យថាបោះកូនក្រមុំ។ វាជាល្បែងបែបស្នេហារាប់អានរបស់បុណ្យចូលឆ្នាំខ្មែរ ពេលដែលយុវជនយុវនារីមានឱកាសជួបគ្នាតាមប្រពៃណីដ៏ទន់ភ្លន់។",
     whenPlayedKhmer:
       "គេលេងនៅបុណ្យចូលឆ្នាំខ្មែរ និងពិធីបុណ្យភូមិ ពេលដែលសហគមន៍ទាំងមូលជួបជុំគ្នាដើម្បីអបអរ។",
     whyPlayedKhmer:
-      "គេលេងវាសម្រាប់ភាពសប្បាយនៃការបោះ និងការសើចដ៏ខ្មាស់អៀន និងរីករាយនៅពេលគេផ្គូផ្គងគូ។",
+      "គេលេងវាសម្រាប់ភាពសប្បាយនៃការបោះ​​ និងការសើចដ៏ខ្មាស់អៀន និងរីករាយនៅពេលគេផ្គូផ្គងគូ។",
     importanceKhmer:
       "ល្បែងនេះផ្តល់ឱកាសឱ្យយុវជនយុវនារីជួបគ្នាក្នុងរបៀបទន់ភ្លន់តាមប្រពៃណី ហើយនាំភូមិទាំងមូលមកជាហ្វូងមនុស្សរីករាយតែមួយ។",
     whyTodayKhmer:
@@ -225,7 +225,7 @@ const games = [
   },
 {
     name: "Veay Ka'am",
-    khmerName: "វាយកអាំ",
+    khmerName: "វាយក្អម",
     image: "/images/veay_ka'am.jpg",
     translit: "Veay Ka'am (Hit the Coconut)",
     howToPlay:

@@ -2,10 +2,9 @@ const styles = {
   card: {
     marginTop: 28,
     padding: 28,
-    backgroundColor: "#1E170B",
-    border: "1px solid rgba(212,175,55,0.35)",
+    backgroundColor: "#1C222C",
+    border: "1px solid #2E3644",
     borderRadius: 12,
-    boxShadow: "0 10px 30px rgba(0,0,0,0.35)",
   },
   title: {
     fontSize: 24,
@@ -15,7 +14,7 @@ const styles = {
   description: {
     fontSize: 16,
     lineHeight: 1.6,
-    color: "#F2E9D8",
+    color: "#E8EDF2",
     margin: "0 0 18px",
   },
   meta: {
@@ -25,13 +24,13 @@ const styles = {
     fontFamily: "'Courier New', monospace",
     fontSize: 12,
     letterSpacing: 1,
-    color: "#D4AF37",
+    color: "#2EE6A8",
     textTransform: "uppercase",
     margin: 0,
   },
   value: {
     fontSize: 16,
-    color: "#C9B98F",
+    color: "#97A1B3",
     margin: "6px 0 0",
   },
 };
